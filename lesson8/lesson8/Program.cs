@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.IO;
 
 namespace Lesson8
@@ -30,6 +31,8 @@ namespace Lesson8
 
                 string[] data = File.ReadAllLines(@"C:\test\Data.txt");
 
+                Console.WriteLine("This line was adde by Ievgenii");
+
                 string name = data[0];
                 string surname = data[1];
                 int age = Convert.ToInt32(data[2]);
@@ -41,9 +44,9 @@ namespace Lesson8
                 string site = @"https://codeshare.io/5ZgBKe";
                 string chrome = @"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe";
 
-                ProcessStartInfo proces = new ProcessStartInfo();
+                ProcessStartInfo proces = new ProcessStartInfo(chrome);
+            }
 
-               
             catch (Exception ex)
             {
                 Console.WriteLine("Exception is ocurred");

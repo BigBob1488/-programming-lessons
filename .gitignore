@@ -1,0 +1,13 @@
+﻿################################################################################
+# Данный GITIGNORE-файл был автоматически создан Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/Conditions/Conditions/obj
+/Data tipes/Data tipes/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs
+/Data tipes/Data tipes/obj
+/Lesson 4/Lesson 4/obj
+/lesson8/lesson8/obj
+/MyFirstProgram/MyFirstProgram/obj
+/урок 5/урок 5/obj
+/Урок 7/Урок 7/obj
