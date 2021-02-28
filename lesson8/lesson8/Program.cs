@@ -33,6 +33,7 @@ namespace Lesson8
 
                 Console.WriteLine("This line was adde by Ievgenii");
 
+
                 string name = data[0];
                 string surname = data[1];
                 int age = Convert.ToInt32(data[2]);
@@ -53,6 +54,7 @@ namespace Lesson8
                 Console.WriteLine(ex.Message);
             }
 
+            throw new Exception("Ha-Ha-ha!");
             Console.ReadLine();
         }
     }
